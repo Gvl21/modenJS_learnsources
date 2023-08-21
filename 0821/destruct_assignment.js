@@ -25,3 +25,4 @@ console.log(name, age, loc);
 
 // 구조분해 항당하면서 변수이름을 변경하기
 let { name: n, age: a, loc: l } = person;
+
