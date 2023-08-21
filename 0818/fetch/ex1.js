@@ -2,7 +2,6 @@ const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
 fetch('https://dummyjson.com/quotes')
   .then((json) => json.json())
-
   .then((json) => {
     console.log(json);
     const ranNum = Math.floor(Math.random() * json.quotes.length);
